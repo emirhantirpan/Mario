@@ -1,0 +1,479 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16151 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/emirh/Mario
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+56189
+Successfully changed project path to: C:/Users/emirh/Mario
+C:/Users/emirh/Mario
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 81.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/emirh/Mario/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1236
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006685 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 77.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.521 seconds
+Domain Reload Profiling:
+	ReloadAssembly (521ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (378ms)
+			LoadAssemblies (52ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (86ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006892 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\emirh\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\emirh\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 75.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1059ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (132ms)
+		EndReloadAssembly (760ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (229.4 KB). Loaded Objects now: 4520.
+Memory consumption went from 151.4 MB to 151.1 MB.
+Total: 3.337200 ms (FindLiveObjects: 0.347400 ms CreateObjectMapping: 0.184900 ms MarkObjects: 2.645700 ms  DeleteObjects: 0.158100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 116362.034341 seconds.
+  path: Assets/Super Grotto Escape/Characters/Enemies/fly-eye/fly-eye2.png
+  artifactKey: Guid(8e8dfae2b8af03a49aa14edef5235091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Characters/Enemies/fly-eye/fly-eye2.png using Guid(8e8dfae2b8af03a49aa14edef5235091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec78ad37ac6a5a750addf61f0e8044ba') in 0.098150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Super Grotto Escape/Characters/Enemies/fly-eye/fly-eye3.png
+  artifactKey: Guid(5ef3088141cf8c44598b4d203b3a5b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Characters/Enemies/fly-eye/fly-eye3.png using Guid(5ef3088141cf8c44598b4d203b3a5b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83045a2602c46be7c302444ec4eafe48') in 0.012804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.474521 seconds.
+  path: Assets/Super Grotto Escape/Environment/far.png
+  artifactKey: Guid(054562f6b41215f4f8dea62c745e6b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/far.png using Guid(054562f6b41215f4f8dea62c745e6b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d1f2f77f37bc69e495297a3a4643d0') in 0.019771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Super Grotto Escape/Environment/middle.png
+  artifactKey: Guid(1156aa2e92baf8f4eafadb9fed8f4e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/middle.png using Guid(1156aa2e92baf8f4eafadb9fed8f4e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9809b498b1c83a13ad2435cc55eb7443') in 0.018706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.043492 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset.png
+  artifactKey: Guid(1ff621bafaff38f4ebcc1baf669ab883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset.png using Guid(1ff621bafaff38f4ebcc1baf669ab883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72e07b006a74997e97bc1666bdbe7fe') in 0.264902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_38.asset
+  artifactKey: Guid(23ec433490964a34abdc24e756ec1fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_38.asset using Guid(23ec433490964a34abdc24e756ec1fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7f4d84304efb2e2f02f4de969b8dc3') in 0.037145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_15.asset
+  artifactKey: Guid(eadb76d45e2efcf478e272549b0b1cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_15.asset using Guid(eadb76d45e2efcf478e272549b0b1cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d03d5bc1b5c4a542d04e54ee68b1e2') in 0.010053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_51.asset
+  artifactKey: Guid(8f783015d3617464594e1ad965c9614f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_51.asset using Guid(8f783015d3617464594e1ad965c9614f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1c8d5ffbdf8c1e3765d4cdaf6a8dcd') in 0.008453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_58.asset
+  artifactKey: Guid(cd889edf6fea715469a684d9fe38cdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_58.asset using Guid(cd889edf6fea715469a684d9fe38cdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021fe2790f13ba9c0a012ce7c3e9da4c') in 0.008972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_57.asset
+  artifactKey: Guid(ae47b418c51a48a4a90bb27afccc0caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_57.asset using Guid(ae47b418c51a48a4a90bb27afccc0caa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3340e573d312d938e29074c2a187cb4') in 0.010262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_10.asset
+  artifactKey: Guid(174b1d1bec1ac23499963c8891f90344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_10.asset using Guid(174b1d1bec1ac23499963c8891f90344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45de2e8febd0941090f43989879b8f47') in 0.015638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_40.asset
+  artifactKey: Guid(6af698081d2839d4e867b8a88b71bc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_40.asset using Guid(6af698081d2839d4e867b8a88b71bc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e9b66b0cef5d12a91cfa2654e32fbc') in 0.010391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_7.asset
+  artifactKey: Guid(ec5e14c84dfdc824d9e1ac02643c2046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_7.asset using Guid(ec5e14c84dfdc824d9e1ac02643c2046) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0bcd69203c17821f7fe5abb25dd86d6') in 0.011417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_25.asset
+  artifactKey: Guid(f397e4d51aa12c948ad74832cefaebe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_25.asset using Guid(f397e4d51aa12c948ad74832cefaebe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fff2e52578560ea8fdc88bb933ef438') in 0.009969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_54.asset
+  artifactKey: Guid(c10e156caa3da1e429955663b27a3152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_54.asset using Guid(c10e156caa3da1e429955663b27a3152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adfbd1cad06e4abeeab9778c728c958a') in 0.008893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_13.asset
+  artifactKey: Guid(a57aee36dd4ac244a8e4052b61fd9698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_13.asset using Guid(a57aee36dd4ac244a8e4052b61fd9698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f500337d5f137615b09693a0dbc2eecc') in 0.010317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_49.asset
+  artifactKey: Guid(708048084258ea846b1d45e214753e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_49.asset using Guid(708048084258ea846b1d45e214753e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e1565dfbca8928337156ca7b7c37ef') in 0.011046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_41.asset
+  artifactKey: Guid(2d5de55b1ad7b294abd0c8b7567a57d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_41.asset using Guid(2d5de55b1ad7b294abd0c8b7567a57d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428e548d43245ed390a3c04d15853318') in 0.011143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_55.asset
+  artifactKey: Guid(6de5f77616081224ebc099af14fb2e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_55.asset using Guid(6de5f77616081224ebc099af14fb2e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38435453cc63cde6b0d1ca73d0574c0a') in 0.009972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_39.asset
+  artifactKey: Guid(f717b67d778cac44092ec949817f03bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_39.asset using Guid(f717b67d778cac44092ec949817f03bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e041b835ec8337366861246fddd421') in 0.010859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_27.asset
+  artifactKey: Guid(f99e1546c12f6844387d49bb02b887b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_27.asset using Guid(f99e1546c12f6844387d49bb02b887b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6363d48e41134e054a5fb3423e81f2aa') in 0.011039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_23.asset
+  artifactKey: Guid(f12f44eaba50c1547a896dbb1b35d560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_23.asset using Guid(f12f44eaba50c1547a896dbb1b35d560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598d13320d858c5bb9ffe49c627ffb3f') in 0.010444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_46.asset
+  artifactKey: Guid(626579260d870e046a06c441cebae23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_46.asset using Guid(626579260d870e046a06c441cebae23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468a6015bc59eca384334a4d524f0634') in 0.010039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_35.asset
+  artifactKey: Guid(3470d124f1f965240b026fe7e4e7779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_35.asset using Guid(3470d124f1f965240b026fe7e4e7779a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3d7a96f9b9f7232f437cfe077dbd55') in 0.010926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_5.asset
+  artifactKey: Guid(0718e1d15c1b79c4dad2f0ea0603a6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_5.asset using Guid(0718e1d15c1b79c4dad2f0ea0603a6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbbe062bd6852c74e157c3311e883d60') in 0.010022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_47.asset
+  artifactKey: Guid(5f79b21911bff564387b4130d661189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_47.asset using Guid(5f79b21911bff564387b4130d661189c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06d20e6f4240a06ac9a782c8775f7b1') in 0.010298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_32.asset
+  artifactKey: Guid(c53cd9825f11dc34994220eaabd2dfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_32.asset using Guid(c53cd9825f11dc34994220eaabd2dfd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ca576ae10a02e3c20d8274e11f6cfd') in 0.010265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_22.asset
+  artifactKey: Guid(49af8d532484c6a4da27af263ec8a0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_22.asset using Guid(49af8d532484c6a4da27af263ec8a0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3be33b285bc43d33679a34600602d62') in 0.010665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_2.asset
+  artifactKey: Guid(85b3f21276962bc46a1a0c10cd400b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_2.asset using Guid(85b3f21276962bc46a1a0c10cd400b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5090c98a593dff287d9e0e841cc1bf2e') in 0.009541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.235624 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_60.asset
+  artifactKey: Guid(f42604dfd243cda4baca4679f860229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_60.asset using Guid(f42604dfd243cda4baca4679f860229a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2237c313fcc76afe5e8cbbf642dcbeae') in 0.010153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_71.asset
+  artifactKey: Guid(910e5a4ef2d6deb4695873d3e3680b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_71.asset using Guid(910e5a4ef2d6deb4695873d3e3680b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43632bd827558ed2fe8e6465ad5c9066') in 0.010349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_63.asset
+  artifactKey: Guid(18216bd022a56f548835bf61787fd614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_63.asset using Guid(18216bd022a56f548835bf61787fd614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66dc3c032287c292ed59a921ccf1003') in 0.010996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_72.asset
+  artifactKey: Guid(6b14ff792a9c5e64b9cbc3008a4edecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_72.asset using Guid(6b14ff792a9c5e64b9cbc3008a4edecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40351396e19eef1084f6936214845a2') in 0.010893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_67.asset
+  artifactKey: Guid(79deaac11123dce48bd697c3851f226c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_67.asset using Guid(79deaac11123dce48bd697c3851f226c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69e65b61975b29006f3cc8060c84046') in 0.010300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_70.asset
+  artifactKey: Guid(41b58566a0b90004994eb0b067909b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_70.asset using Guid(41b58566a0b90004994eb0b067909b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264f6dc4acaa7d139def28d86b6f6bb0') in 0.010593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_64.asset
+  artifactKey: Guid(925a4905172aafe41ba01818a9fa43ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_64.asset using Guid(925a4905172aafe41ba01818a9fa43ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ddab7cd177df3c1b940b15cd25312f') in 0.010510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.442050 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_75.asset
+  artifactKey: Guid(fb683f9161e65c14da61246652caf80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_75.asset using Guid(fb683f9161e65c14da61246652caf80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1501c16eaa802e0b14482080988f44c') in 0.010705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_88.asset
+  artifactKey: Guid(296aadd034cb2814f9df28aa1f202d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_88.asset using Guid(296aadd034cb2814f9df28aa1f202d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd1f4ebbb3619f6a970486cb22c4b38') in 0.013776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_82.asset
+  artifactKey: Guid(532313e6c2e8a22469b956f384ef352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_82.asset using Guid(532313e6c2e8a22469b956f384ef352e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49993f0ac9be865a45ff1b352d162716') in 0.012773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_86.asset
+  artifactKey: Guid(e54257f3366ff66448c374d73a4780a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_86.asset using Guid(e54257f3366ff66448c374d73a4780a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77077a6bbc64de6201fbef77995c436') in 0.012640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_87.asset
+  artifactKey: Guid(0ca42ccd900a8694fb155b27a4d10339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_87.asset using Guid(0ca42ccd900a8694fb155b27a4d10339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b52165ea19966789aa1e468dee0ca3b8') in 0.014847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_80.asset
+  artifactKey: Guid(03f8297a0ae241d4c8e7bdddf095fe38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_80.asset using Guid(03f8297a0ae241d4c8e7bdddf095fe38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29e8f134f7dfe8c826f8a7792bcecf3') in 0.013014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_85.asset
+  artifactKey: Guid(d1ab8bd8c45a87c4797a96c393d324bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_85.asset using Guid(d1ab8bd8c45a87c4797a96c393d324bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0f24eb49dbe78db038ac946f7f6c58') in 0.010435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.113625 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_90.asset
+  artifactKey: Guid(ff7e86af96c5dad4a8b8638bb1010065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_90.asset using Guid(ff7e86af96c5dad4a8b8638bb1010065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e054d6557971cb7ddaf4244403164d8f') in 0.009765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_93.asset
+  artifactKey: Guid(ebda64ab633db6b4eb7441b3bc16f1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_93.asset using Guid(ebda64ab633db6b4eb7441b3bc16f1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781224a62bf780281076e3417b5c8092') in 0.009875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_101.asset
+  artifactKey: Guid(a05d096a9b3ef9d47b3c194340e29093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_101.asset using Guid(a05d096a9b3ef9d47b3c194340e29093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665c863c7f0e9ad33f7383a861d107af') in 0.010170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_95.asset
+  artifactKey: Guid(c8acaf8403d238c4a9491784b7be8ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_95.asset using Guid(c8acaf8403d238c4a9491784b7be8ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5a2be601b41f041e3d20b6d6ec831a4') in 0.010751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_97.asset
+  artifactKey: Guid(5d94b88cdb0587a43bab6e4d229e3e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_97.asset using Guid(5d94b88cdb0587a43bab6e4d229e3e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f746c5881c0ee20567a50fbc758668e') in 0.011040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_104.asset
+  artifactKey: Guid(18b14b6ddd1333e46b54bad7179fa34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_104.asset using Guid(18b14b6ddd1333e46b54bad7179fa34b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce575a7ca7a8bfd588489d3bab897e69') in 0.010287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_105.asset
+  artifactKey: Guid(0980b0b857a0c994cbb589ab9563ea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_105.asset using Guid(0980b0b857a0c994cbb589ab9563ea01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e613f0e55fd9bb9e2f53eeb967a3cb3') in 0.010394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_98.asset
+  artifactKey: Guid(2004eab85f270684fbf63236e57d650d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_98.asset using Guid(2004eab85f270684fbf63236e57d650d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5da9b89fedac2c15e3d71a0c326017b') in 0.010569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Super Grotto Escape/Environment/tileset/tileset_106.asset
+  artifactKey: Guid(cd005dff51629bc4ba529b9fa48f9e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Super Grotto Escape/Environment/tileset/tileset_106.asset using Guid(cd005dff51629bc4ba529b9fa48f9e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b154f1287ac1173e122851945fd798') in 0.010702 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
