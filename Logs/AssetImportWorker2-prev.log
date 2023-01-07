@@ -1,0 +1,245 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16151 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/emirh/Mario
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+49201
+Successfully changed project path to: C:/Users/emirh/Mario
+C:/Users/emirh/Mario
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 97.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/emirh/Mario/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1236
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007061 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 87.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.529 seconds
+Domain Reload Profiling:
+	ReloadAssembly (529ms)
+		BeginReloadAssembly (54ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (386ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (83ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005716 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\emirh\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\emirh\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 83.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.098 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1099ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (806ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4096 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (229.0 KB). Loaded Objects now: 4548.
+Memory consumption went from 154.6 MB to 154.4 MB.
+Total: 3.296700 ms (FindLiveObjects: 0.371800 ms CreateObjectMapping: 0.226200 ms MarkObjects: 2.489900 ms  DeleteObjects: 0.207800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 252659.050281 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork
+  artifactKey: Guid(37f793a961180444ebce6d37cc1f5759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork using Guid(37f793a961180444ebce6d37cc1f5759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e12881162fc8159ab7f41e167c3e6a2') in 0.011076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.008392 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites
+  artifactKey: Guid(811167dee2eb9224aad188ec0a99687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites using Guid(811167dee2eb9224aad188ec0a99687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26962f64a19c380a0b9a82cb2f61775d') in 0.005643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.413870 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/player
+  artifactKey: Guid(4a438a7fe589b2341a2dbc9482203952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/player using Guid(4a438a7fe589b2341a2dbc9482203952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8d182ebbe8c799994fe4a3cfde6de2') in 0.005336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.261259 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/player/idle
+  artifactKey: Guid(3fa85f645a35fce44959fdcfa2f69012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/player/idle using Guid(3fa85f645a35fce44959fdcfa2f69012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e7766562eb50726bac70ab4e50ca50') in 0.005658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.061892 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/player/idle/player-idle-1.png
+  artifactKey: Guid(9a6ea0346b6de4a46a83b8ab430f2106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/player/idle/player-idle-1.png using Guid(9a6ea0346b6de4a46a83b8ab430f2106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ce3fed452e71c55349a9ad683adcda') in 0.091594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.711881 seconds.
+  path: Assets/Assets - Kopya/Scripts
+  artifactKey: Guid(8abf00aca5b56bb4fb996da67f44aa4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Scripts using Guid(8abf00aca5b56bb4fb996da67f44aa4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac1f7270762b544195e2eba639ef82a') in 0.006026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.452332 seconds.
+  path: Assets/Assets - Kopya/Scripts/Player.cs
+  artifactKey: Guid(2734c9dcca69b0840b6ced26b8e4dc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Scripts/Player.cs using Guid(2734c9dcca69b0840b6ced26b8e4dc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97f1f9cdd50660c297cd49352bf47ac') in 0.007553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.950307 seconds.
+  path: Assets/Assets - Kopya/Scripts/AI_Bot.cs
+  artifactKey: Guid(f4ff339a809d2d740ae59d8daab82ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Scripts/AI_Bot.cs using Guid(f4ff339a809d2d740ae59d8daab82ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1155c13b405f850234d5917b8e01d9') in 0.005749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.306970 seconds.
+  path: Assets/Assets - Kopya/Prefabs
+  artifactKey: Guid(c89a15b0d5327a848add8c8ad8d4fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Prefabs using Guid(c89a15b0d5327a848add8c8ad8d4fae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ec70d917bb10eebf5a62c018c2ffb5') in 0.005266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054067 seconds.
+  path: Assets/Assets - Kopya/Prefabs/BeetleEnemy.prefab
+  artifactKey: Guid(81c8f39b4b03ea047b01d5fdd24f150c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Prefabs/BeetleEnemy.prefab using Guid(81c8f39b4b03ea047b01d5fdd24f150c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94984ca33ec52227be37ff1d53a3ea0c') in 0.063012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets - Kopya/Prefabs/mini-heart.png
+  artifactKey: Guid(fed24bd82cefc0c4a8ef64dab6231b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Prefabs/mini-heart.png using Guid(fed24bd82cefc0c4a8ef64dab6231b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191d9eae60934dc5a57d739823fb43fa') in 0.069905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets - Kopya/Prefabs/mini-heart_0.prefab
+  artifactKey: Guid(5fd5a38b589fe304dbfb3f5d99c909a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Prefabs/mini-heart_0.prefab using Guid(5fd5a38b589fe304dbfb3f5d99c909a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ad2067e7853ba5d7f075fcb7c962c1') in 0.022491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets - Kopya/Prefabs/PigEnemy.prefab
+  artifactKey: Guid(978f737b93990d042beb5ec38b4b1d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Prefabs/PigEnemy.prefab using Guid(978f737b93990d042beb5ec38b4b1d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b61980a0a758c66383eda6fd934a4ec') in 0.017219 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

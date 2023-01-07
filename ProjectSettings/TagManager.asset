@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - JumpableGround
+  - next_level
+  - dead
+  - Cherry
+  - Enemy
+  - finish
+  - next_level3
+  - next_level2
+  - Take
   layers:
   - Default
   - TransparentFX

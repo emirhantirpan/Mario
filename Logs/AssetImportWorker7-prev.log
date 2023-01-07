@@ -1,0 +1,417 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'tr' Physical Memory: 16151 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+C:/Users/emirh/Mario
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+49201
+Successfully changed project path to: C:/Users/emirh/Mario
+C:/Users/emirh/Mario
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 89.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/emirh/Mario/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     6023 MB
+    Driver:   30.0.15.1236
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006645 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 75.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.524 seconds
+Domain Reload Profiling:
+	ReloadAssembly (525ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (365ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (80ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (74ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006637 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\emirh\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\emirh\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 81.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.069 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1070ms)
+		BeginReloadAssembly (195ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (761ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (399ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4096 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (228.9 KB). Loaded Objects now: 4549.
+Memory consumption went from 154.6 MB to 154.4 MB.
+Total: 3.061700 ms (FindLiveObjects: 0.333700 ms CreateObjectMapping: 0.152000 ms MarkObjects: 2.408200 ms  DeleteObjects: 0.167000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 254879.027291 seconds.
+  path: Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Enemies/Eagle Dive Attack/attack2.png
+  artifactKey: Guid(e13889351117c7d45baa2713c349b9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Enemies/Eagle Dive Attack/attack2.png using Guid(e13889351117c7d45baa2713c349b9a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973c53207ddb6ee364d9dc4e7dedd20d') in 0.108567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Enemies/bat/bat-hang/bat-hang3.png
+  artifactKey: Guid(58f9a1078b240e64392e20ec482eb67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Enemies/bat/bat-hang/bat-hang3.png using Guid(58f9a1078b240e64392e20ec482eb67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2d76b17b11803f848e650aa59ef93d') in 0.054816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Enemies/bat/bat-fly/bat-fly3.png
+  artifactKey: Guid(52554db975b9dc84f95713456871809a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Enemies/bat/bat-fly/bat-fly3.png using Guid(52554db975b9dc84f95713456871809a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335fc4b5705cca68b40de4dd387194dc') in 0.013895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Enemies/bear/bear-walk3.png
+  artifactKey: Guid(23d6437fa986b1245b0b2bbf0506d849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Enemies/bear/bear-walk3.png using Guid(23d6437fa986b1245b0b2bbf0506d849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf28f64a8aa263cdf70b2f235e2cd34') in 0.013236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Enemies/bear/bear-walk2.png
+  artifactKey: Guid(ff92939a627188a43b28b96c0fa7f6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Enemies/bear/bear-walk2.png using Guid(ff92939a627188a43b28b96c0fa7f6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d0d1391f9bcd01d95e525b0c0cdfb7') in 0.011737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Enemies/Bettle/bettle2.png
+  artifactKey: Guid(e3f0fea362b02b64689ff0f215eb6807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Enemies/Bettle/bettle2.png using Guid(e3f0fea362b02b64689ff0f215eb6807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9312bb2e576a7830c00f9ab0041ffe86') in 0.014287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Enemies/bat/bat-hang/bat-hang1.png
+  artifactKey: Guid(94af3867f345dd947b3b61f3d0fb9ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Enemies/bat/bat-hang/bat-hang1.png using Guid(94af3867f345dd947b3b61f3d0fb9ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cee2f504d50e6e2ae631ebcc8e9aac8') in 0.009742 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Enemies/Bettle/bettle4.png
+  artifactKey: Guid(d205f3e763882324487838607d52cbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Enemies/Bettle/bettle4.png using Guid(d205f3e763882324487838607d52cbc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826a567b08d856e9d40ca796920c5324') in 0.013369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Enemies/Bettle/bettle2.png
+  artifactKey: Guid(58abdd4ef9ec003409005b0dd3d13479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Enemies/Bettle/bettle2.png using Guid(58abdd4ef9ec003409005b0dd3d13479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2248cfe468db5d97972b7cafd25617c') in 0.011068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.885788 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Environment/props/block.png
+  artifactKey: Guid(55c391d3f0fae59419d1a50cb7f165b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Environment/props/block.png using Guid(55c391d3f0fae59419d1a50cb7f165b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9653de7e69269b88f09ef53071554c20') in 0.015895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Assets - Kopya/SunnyLand Artwork/Environment/props/block.png
+  artifactKey: Guid(8a8849b7b8b964564b9e89cb1ded0658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/SunnyLand Artwork/Environment/props/block.png using Guid(8a8849b7b8b964564b9e89cb1ded0658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f65ab3b05f018164d54a8c38315ac8') in 0.011665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002672 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@3x.png
+  artifactKey: Guid(76beef9fdae7b48468ddf07d0400a374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone@3x.png using Guid(76beef9fdae7b48468ddf07d0400a374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6411d0a98327be1b9f1c0e417d5fdc69') in 0.019394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence.png
+  artifactKey: Guid(ff00345da0563d641903c5bd5bb748a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Bone_Influence.png using Guid(ff00345da0563d641903c5bd5bb748a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d45dc9b11e4f2afa840ea54541203b1') in 0.018235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@4x.png
+  artifactKey: Guid(c7aa62ae78ffca0498c89e5f45f94c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Bone_Influence@4x.png using Guid(c7aa62ae78ffca0498c89e5f45f94c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93d5b67f0f134cd3fd0997f1abd40e35') in 0.016714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.672861 seconds.
+  path: Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Enemies/bunny/bunny3.png
+  artifactKey: Guid(ff80f8f830d1c3f418fea9ca85ba01f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Enemies/bunny/bunny3.png using Guid(ff80f8f830d1c3f418fea9ca85ba01f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18d4ffa4a644b82e9aa4bb945244c3b') in 0.014000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Enemies/bunny/bunny3.png
+  artifactKey: Guid(c885e10b04f79004c8bcb3602707664c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Enemies/bunny/bunny3.png using Guid(c885e10b04f79004c8bcb3602707664c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56384709cbd1f37b77d7fb135f83618') in 0.011153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Environment/props/bush.png
+  artifactKey: Guid(9b123df0f7f509644986e4f115a3a558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Environment/props/bush.png using Guid(9b123df0f7f509644986e4f115a3a558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acb56f3de83a6d90a80da359d67a47f') in 0.011552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.194705 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode.png
+  artifactKey: Guid(d4d64a6cd9624c34a815dd79fb2a20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode.png using Guid(d4d64a6cd9624c34a815dd79fb2a20a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29cad9aa75071defb37abe9d9d42915') in 0.018362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@2x.png
+  artifactKey: Guid(25096ce515c063c48a2bd6b108c95912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@2x.png using Guid(25096ce515c063c48a2bd6b108c95912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16ffaec72555e587e7066c2898c725d') in 0.018011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@4x.png
+  artifactKey: Guid(748ae8b33df036b46a86e0387f1602cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/character_Mode@4x.png using Guid(748ae8b33df036b46a86e0387f1602cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a19938bfa4b836aab3180f54a98b417') in 0.015112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.146181 seconds.
+  path: Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Items/cherry/cherry-2.png
+  artifactKey: Guid(8582e97fa62334fbd8bd10c1052e27b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Items/cherry/cherry-2.png using Guid(8582e97fa62334fbd8bd10c1052e27b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df6b59731d4fd6c04550c5883ee116e') in 0.039524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Items/cherry/cherry-3.png
+  artifactKey: Guid(06c04197e6f394ba897942f561e896c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Items/cherry/cherry-3.png using Guid(06c04197e6f394ba897942f561e896c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d693dc7e02085dd356ad0b8eea194a9') in 0.014251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.260753 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Items/cherry/cherry-6.png
+  artifactKey: Guid(c38871d6096b7e44aaaf2b3a8cb3a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Items/cherry/cherry-6.png using Guid(c38871d6096b7e44aaaf2b3a8cb3a256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf8fae90f1409e7ff160f6151e0f23a') in 0.020002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Items/cherry/cherry-7.png
+  artifactKey: Guid(056b6a3f6e14d4af2a7d641c4dd44e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/SunnyLand Artwork/Sprites/Items/cherry/cherry-7.png using Guid(056b6a3f6e14d4af2a7d641c4dd44e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5239c986ca5b15da6e9303f23a8896') in 0.023319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Items/cherry/cherry-7.png
+  artifactKey: Guid(e4f1d4ff63694c64ca1f953b14a06682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/Assets/SunnyLand Artwork/Sprites/Items/cherry/cherry-7.png using Guid(e4f1d4ff63694c64ca1f953b14a06682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a96dc3d6bffc24e95286a716553d7ef') in 0.010001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.057586 seconds.
+  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@4x.png
+  artifactKey: Guid(b6a96c7c65795c94abf54a62adbf5c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Copy@4x.png using Guid(b6a96c7c65795c94abf54a62adbf5c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55c4ae3649fd8f7f419b3e9741b6436') in 0.018301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Assets - Kopya/SunnyLand Artwork/Environment/props/crank-down.png
+  artifactKey: Guid(d3240c946631a4966b1bcab3db999126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/SunnyLand Artwork/Environment/props/crank-down.png using Guid(d3240c946631a4966b1bcab3db999126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da21c4b3ec2426457024fd1065d74efb') in 0.014962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets - Kopya/SunnyLand Artwork/Environment/props/crank-up.png
+  artifactKey: Guid(441a2d89600064d4d9ced045b19d0ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets - Kopya/SunnyLand Artwork/Environment/props/crank-up.png using Guid(441a2d89600064d4d9ced045b19d0ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d34720d1e936ee3e3736f04d33d7e9') in 0.010802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.079805 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyincoming@2x.png
+  artifactKey: Guid(ae869fe6797f4454cbbf417d87ff637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplasticnotifyincoming@2x.png using Guid(ae869fe6797f4454cbbf417d87ff637c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6f07a43191607595c999bbd544bcd7') in 0.030710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Dark/Layers Mixed@4x.png
+  artifactKey: Guid(68f1f3aed86c64050b0c1e343c604868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Dark/Layers Mixed@4x.png using Guid(68f1f3aed86c64050b0c1e343c604868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f70ae6650ebd1e9c894c042711af59') in 0.016983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Selected/Layers Mixed@2x.png
+  artifactKey: Guid(d7b52ee143e0c4bf09d482ec22428db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Selected/Layers Mixed@2x.png using Guid(d7b52ee143e0c4bf09d482ec22428db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6283747b4beffa07517e734aa119757') in 0.017152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Selected/Layers Mixed@16x.png
+  artifactKey: Guid(9f3e8a7a640b640feac66da51cc078c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Selected/Layers Mixed@16x.png using Guid(9f3e8a7a640b640feac66da51cc078c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a4862fc2704066dffbcf2ae9b7813ec') in 0.021138 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008169 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\emirh\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\emirh\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (964ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4078 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (195.6 KB). Loaded Objects now: 4583.
+Memory consumption went from 157.6 MB to 157.5 MB.
+Total: 2.916300 ms (FindLiveObjects: 0.280800 ms CreateObjectMapping: 0.101200 ms MarkObjects: 2.387400 ms  DeleteObjects: 0.146200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

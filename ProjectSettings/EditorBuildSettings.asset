@@ -6,9 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Assets - Kopya/Scenes/MainMenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
+    path: Assets/Assets - Kopya/Scenes/level1.unity
+    guid: 468852b4f93e3f84da9c780d051255f3
+  - enabled: 1
+    path: Assets/Assets - Kopya/Scenes/level2.unity
+    guid: 2c5ed75289b04cc4d997470bb63354f3
+  - enabled: 1
+    path: Assets/Assets - Kopya/Scenes/level3.unity
+    guid: 5c02e115b898ca44da8eedacfae5174e
+  - enabled: 1
+    path: Assets/Assets - Kopya/Scenes/level4.unity
+    guid: 98488228decabdd4bae16b96e8830b9d
+  - enabled: 1
+    path: Assets/Assets - Kopya/Scenes/Finish.unity
     guid: 0321977503e18444fae43d64bec3f3f1
   m_configObjects: {}
